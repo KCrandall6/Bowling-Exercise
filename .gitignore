@@ -1,8 +1,8 @@
-# build
-build/*.js
-build/*.html
-build/*.css
-build/*.txt
+# build and dist
+dist/*.js
+dist/*.html
+dist/*.css
+dist/*.txt
 
 # Logs
 logs
@@ -41,7 +41,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+dist/Release
 
 # Dependency directories
 node_modules/
@@ -119,7 +119,7 @@ dist
 /coverage
 
 # production
-/build
+/dist
 
 # misc
 .DS_Store
